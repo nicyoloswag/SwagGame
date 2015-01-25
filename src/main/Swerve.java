@@ -13,7 +13,7 @@ public class Swerve extends org.newdawn.slick.BasicGame{
 
 	private int x = 40;
 	private int y = 60;
-	private int radius = 65;
+	private int radius = 42;
 	private int diameter = radius*2;
 	private int speed = 10;
 
