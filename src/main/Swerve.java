@@ -9,6 +9,7 @@ public class Swerve extends org.newdawn.slick.BasicGame{
 
 	public static void main(String[] args) throws SlickException{
 		AppGameContainer gc = new AppGameContainer(new Swerve());
+		gc.setTargetFrameRate(60);
 		gc.start();
 	}
 
